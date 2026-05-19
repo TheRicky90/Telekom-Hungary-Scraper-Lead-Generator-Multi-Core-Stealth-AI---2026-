@@ -80,7 +80,7 @@ Ogni volta che desideri rimettere in funzione la macchina estrattiva, apri il te
 
 ### 1. Accensione dell'ambiente e lancio
 ```bash
-cd C:\Users\Ricca\Desktop\pyprojeckt's\telekom_scraper
+cd C:YOUR PATH:pyprojeckt's\telekom_scraper
 venv\Scripts\activate
 python telekom_scraper.py
 ```
@@ -194,7 +194,7 @@ Every time you want to restart the extraction machine, open the Windows terminal
 
 ### 1. Environment activation and launch
 ```bash
-cd C:\Users\Ricca\Desktop\pyprojeckt's\telekom_scraper
+cd C:YOUR PATH:pyprojeckt's\telekom_scraper
 venv\Scripts\activate
 python telekom_scraper.py
 ```
