@@ -8,7 +8,7 @@ Software industriale automatizzato basato su **Python 3.12** e **Playwright** pe
 
 * **Umanizzazione Biometrica Avanzata**: Digitazione dei moduli basata su distribuzione gaussiana asimmetrica per lettera e movimenti del mouse a curve paraboliche per azzerare i flag comportamentali.
 * **YOLOv8 Geometrico Adattivo (Visivo Primario)**: Rileva dinamicamente matrici fisse e complesse (3x3, 4x3, 4x4) calcolando le coordinate reali dei pixel nell'Iframe per superare i blocchi trasparenti di Google.
-* **Whisper-Tiny Resident in RAM (Audio Fallback)**: Intercetta il flusso MP3 asincrono di Google e decodifica istantaneamente in memoria le nuove sfide a dettato testuale complesso (frasi intere composte da parole e spazi), eliminando file orfani sul disco fiso.
+* **Whisper-Tiny Residente in RAM (Audio Fallback)**: Intercetta il flusso MP3 asincrono di Google e decodifica istantaneamente in memoria le nuove sfide a dettato testuale complesso (frasi intere composte da parole e spazi), eliminando file orfani sul disco fisso.
 * **Isolamento Hardware Multi-Core**: Threading neurale PyTorch forzatamente isolato ad 1 Thread per Core, per prevenire congelamenti (*Deadlock*) e sfruttare appieno processori massivi (fino a 32 thread).
 * **Filtro Progressivo e Strategia Incessante**: Set condiviso in RAM in tempo reale per lo scarto immediato dei duplicati inter-processo e congelamento dell'indice in caso di errore per martellare lo stesso bersaglio cambiando sessione.
 * **Ripristino Progressivo a Freddo**: All'avvio analizza l'ultima riga scritta nei file CSV calcolando automaticamente il record numerico o l'attività business esatta da cui riprendere l'estrazione.
@@ -36,7 +36,7 @@ pip install httpx[socks] ultralytics openai-whisper torch torchvision opencv-pyt
 
 ### 3. Installazione dei Binari Multimediali Nativi (FFmpeg)
 Per permettere a `pydub` e `whisper` di processare l'audio direttamente in memoria RAM, Windows necessita dei binari di sistema FFmpeg.
-1. Scarica la versione *Essentials build* da sito ufficiale o tramite gestore di pacchetti Windows:
+1. Scarica la versione *Essentials build* dal sito ufficiale o tramite gestore di pacchetti Windows:
    ```bash
    winget install Gyan.FFmpeg
    ```
@@ -96,14 +96,17 @@ Il software ti guiderà passo dopo passo tramite domande nel terminale:
    * Premi **`g`** per attivare il download dinamico dei proxy gratuiti, inserendo poi il numero della nazione limitrofa desiderata per abbattere la latenza (consigliati nodi *HU* o *DE*).
    * Premi **`p`** per caricare la tua lista di proxy commerciali dal file `proxy_privati.txt`.
 5. **Allocazione Core**: Inserisci il numero di istanze browser parallele da lanciare. (Se navighi *In chiaro* o in modalità *Manuale*, imposta sempre **`1`** per focalizzare le prestazioni).
-6. **Gestione del Ripristino Progressivo**: Se il software rileva che nella cartella esiste già un file CSV parziale per quell'area, ti domanderà: *Riprendere da dove interrotta? (si/no)*. Scrivi **`si`**. Il Core analizzerà il file e salterà istantaneamente i record estratti in precedenza, ripartendo a freddo dall'esatta coordinata di sosta.
+6. **Gestione del Ripristino Progressivo**: Se il software rileva che nella cartella esiste già un file CSV parziale per quell'area, ti domanderà: *Riprendere da dove interrotta? (si/no)*. Scrivi **`si`**. Il Core analizzerà il file e salterà istantaneamente i record estratti in precedenza, ripartendo a freddo dall'esatta ordinata di sosta.
 
 ---
 
-## 🎮 Controlli di Emergenza durante l'Esecuzione
+## 🎮 Controlli di Emergenza e Protezioni Automatizzate
 
+* **Risoluzione Audio Avanzata Interattiva**: Quando il risolutore visivo incontra una griglia complessa o viene sfidato, il sistema attiva automaticamente il modulo **Whisper Audio in RAM**. Questo intercetta la traccia vocale a frase intera di Google, ne calcola la durata nativa in millisecondi per simulare un tempo di ascolto umano realistico e immette la stringa testuale completa lettera per lettera. L'operazione simula la tastiera hardware reale ed elimina l'uso di JavaScript bloccanti, agendo chirurgicamente sugli XPath verificati `//*[@id="audio-response"]` e `//*[@id="recaptcha-verify-button"]`.
+* **Auto-Recovery Errore Audio**: Se Whisper riproduce una traccia disturbata e Google respinge la frase testuale scritta, il Core cattura immediatamente l'avviso di errore, impedisce il congelamento dell'istanza e innesca un hard-reset localizzato immediato della sessione per farsi erogare un nuovo flusso vocale sul medesimo target.
 * **`CTRL + Q` (Force-Kill Hardware)**: È la scorciatoia globale corazzata registrata a basso livello nel Kernel di Windows. Premendo questa combinazione in qualunque momento, lo script interrompe l'esecuzione multi-core e **rade al suolo istantaneamente tutti i processi figli e le istanze Chromium orfane rimaste appese nella RAM**, ripulendo il Task Manager in un millisecondo.
 * **Auto-Healing Incessante**: Non è richiesto alcun intervento se lo script incontra una congestione di rete o un rifiuto da parte di Google. Il modulo congela autonomamente l'indice del bersaglio, distrugge la sessione instabile e rigenera un browser pulito per ricolpire lo stesso record finché non viene estratto con successo.
+
 
 
 This tool is for educational purpose only or for searching a job! dont be Sally always use Knowlage wisely! 
@@ -180,7 +183,7 @@ telekom_scraper/
 │   └── Kereskedelem.txt
 │
 ├── proxy_privati.txt          # OPTIONAL: List of your dedicated SOCKS5/HTTP proxies
-└── venv/                      # The Python virtual working environment
+└── venv/                      # L'ambiente virtuale di lavoro Python
 ```
 
 ---
@@ -211,8 +214,10 @@ The software will guide you step-by-step through questions in the terminal:
 
 ---
 
-## 🎮 Emergency Controls during Execution
+## 🎮 Emergency Controls & Automated Protections
 
+* **Advanced Audio Fallback Execution**: When the visual puzzle solver hits a complex matrix or is challenged, the system automatically engages the RAM-isolated **Whisper Audio solver**. It intercepts Google’s phrase dictation challenge, calculates the track's native length, simulates human listening times, and types the complete lettered sentence string character-by-character using high-precision hardware emulated keyboard inputs via native `//*[@id="audio-response"]` and `//*[@id="recaptcha-verify-button"]` XPaths.
+* **Audio Error Auto-Recovery**: If Whisper intercepts a noisy segment and Google rejects the submitted vocal phrase sentence, the core catches the warning immediately, flags the issue, prevents the instance from freezing, and triggers an instantaneous localized session hard-reset to grab a clean challenge stream for the frozen target.
 * **`CTRL + Q` (Hardware Force-Kill)**: This is the armored global shortcut registered at the low Windows Kernel level. Pressing this combination at any time halts the multi-core execution and **instantly wipes out all child processes and hanging Chromium instances left over in RAM**, cleaning the Task Manager in a millisecond.
 * **Incessant Auto-Healing**: No intervention is required if the script encounters network congestion or a rejection from Google. The module autonomously freezes the current target index, destroys the unstable session, and regenerates a clean browser to keep hammering the same record until it is successfully extracted.
 
