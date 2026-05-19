@@ -1,3 +1,5 @@
+THIS IS A WORK IN PROGRESS USE OR TEST IT ON YOUR HOWN RISK.. ANY HELP IS APRECIATE!
+
 # 🏭 Telekom Hungary Scraper & Lead Generator (Multi-Core Stealth AI - 2026)
 
 Software industriale automatizzato basato su **Python 3.12** e **Playwright** per l'estrazione massiva e progressiva di anagrafiche commerciali e numeriche dal portale Tudakozó di Telekom Ungheria. Il sistema integra reti neurali residenti in memoria RAM per il superamento autonomo di barriere di sicurezza complesse, emulando la biometria di un utente umano reale.
