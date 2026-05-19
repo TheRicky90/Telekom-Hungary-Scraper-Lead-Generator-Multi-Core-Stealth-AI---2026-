@@ -1,0 +1,12 @@
+Szállodaüzemeltetés
+Panzióüzemeltetés
+Kempingüzemeltetés
+Étterem
+BüféKávézó
+Cukrászda
+Kocsma
+Diszkó
+Rendezvényi étkeztetés
+Utazási iroda
+Utazásszervezés
+Idegenvezetés

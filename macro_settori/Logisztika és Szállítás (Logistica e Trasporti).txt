@@ -1,0 +1,13 @@
+Közúti áruszállítás
+Vasúti áruszállítás
+Légi áruszállítás
+Vízi áruszállítás
+Autóbuszos személyszállítás
+Taxis személyszállítás
+Raktározás
+Csomagolás
+Postai tevékenység
+Futárszolgálat
+Kikötői tevékenység
+Repülőtéri kiszolgálás
+Parkolóüzemeltetés

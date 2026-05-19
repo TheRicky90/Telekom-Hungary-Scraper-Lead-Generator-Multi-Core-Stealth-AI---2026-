@@ -1,0 +1,20 @@
+Nagykereskedelem
+Kiskereskedelem
+Külkereskedelem
+Csomagküldő kereskedelem
+Webáruház
+Kiskereskedelmi
+értékesítés
+Mozgóárusítás
+Használtautó
+Autóalkatrész
+Ruházati
+Élelmiszer
+Gyógyszertár
+Illatszerbolt
+Könyvesbolt
+Bútorbolt
+Ékszerbolt
+Virágbolt
+Kisállat
+Építőanyag

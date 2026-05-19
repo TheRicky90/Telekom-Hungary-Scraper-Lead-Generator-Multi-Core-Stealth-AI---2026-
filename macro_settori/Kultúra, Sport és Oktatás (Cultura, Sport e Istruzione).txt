@@ -1,0 +1,17 @@
+Alapfokú 
+Középfokú 
+Felsőfokú 
+Járművezető
+Nyelvoktatás
+Sportoktatás
+Színházüzemeltetés
+Koncertszervezés
+Moziórák
+Múzeumüzemeltetés
+Könyvtári tevékenység
+Növénykert
+Állatkert
+Szerencsejáték
+Sportklub
+Edzőterem
+Vidámpark

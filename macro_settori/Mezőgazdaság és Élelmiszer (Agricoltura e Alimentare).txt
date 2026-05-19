@@ -1,0 +1,21 @@
+Vecsés Market Central
+Shopmark
+Reál Élelmiszer
+COOP Hungary
+CBA
+Növénytermesztés
+Állattenyésztés
+Erdőgazdálkodás
+Halászat
+Vadgazdálkodás
+Malomipar
+Húsfeldolgozás
+Tejfeldolgozás
+Zöldségfeldolgozás
+Gyümölcsfeldolgozás
+Sütőipar
+Édesipar
+Italgyártás
+Borászat
+Söripar
+Takarmánygyártás
