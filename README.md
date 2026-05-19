@@ -17,7 +17,7 @@ Software industriale automatizzato basato su **Python 3.12** e **Playwright** pe
 
 ## 🛠️ Guida Dettagliata all'Installazione (Primo Avvio)
 
-Segui rigorosamente questa sequenza di comandi all'interno del terminale di Windows posizionandoti nella cartella del progetto (`C:\Users\Ricca\Desktop\pyprojeckt's\telekom_scraper`).
+Segui rigorosamente questa sequenza di comandi all'interno del terminale di Windows posizionandoti nella cartella del progetto.
 
 ### 1. Creazione e Attivazione dell'Ambiente Virtuale (Virtualenv)
 Isola le librerie del software per evitare conflitti con altre versioni di Python installate nel computer:
@@ -131,7 +131,7 @@ Automated industrial software based on **Python 3.12** and **Playwright** for th
 
 ## 🛠️ Detailed Installation Guide (First Startup)
 
-Strictly follow this command sequence inside the Windows terminal, positioning yourself in the project folder (`C:\Users\Ricca\Desktop\pyprojeckt's\telekom_scraper`).
+Strictly follow this command sequence inside the Windows terminal, positioning yourself in the project folder.
 
 ### 1. Creation and Activation of the Virtual Environment (Virtualenv)
 Isolate the software libraries to avoid conflicts with other Python versions installed on your computer:
